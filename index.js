@@ -2,8 +2,8 @@ require('dotenv').config();
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const onboard = require('./onboard');
-const signature = require('./verifySignature');
+const onboard = require('/onboard');
+const signature = require('/verifySignature');
 
 const app = express();
 
